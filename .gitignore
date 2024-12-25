@@ -1,0 +1,53 @@
+# Ignore Python virtual environment
+venv/
+*.pyc
+*.pyo
+__pycache__/
+*.log
+
+# Ignore temporary files and system files
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.lock
+
+# Ignore CMake build artifacts
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+# Ignore converted models and other large files
+converted_model/
+*.gguf
+*.ggml
+
+# Ignore binaries
+bin/
+*.out
+*.exe
+
+# Ignore logs and profiling outputs
+*.perf
+*.log
+*.json
+
+# Ignore editor-specific configurations
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore archives
+*.zip
+*.tar
+*.tar.gz
+
+# Ignore environment settings
+.env
+.envrc
+
