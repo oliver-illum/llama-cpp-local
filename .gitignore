@@ -52,16 +52,16 @@ bin/
 .envrc
 
 # Ignore everything inside the model directories
-converted_models/*
-quantized_models/*
+A_converted_models/*
+A_quantized_models/*
+A_models/*
 
 # But don't ignore the directories themselves
-!converted_models/
-!quantized_models/
+!A_converted_models/
+!A_quantized_models/
+!A_models/
 
 # Allow placeholders for empty directories
-!converted_models/.gitkeep
-!quantized_models/.gitkeep
-
-# Ignore Python virtual environment
-venv/
+!A_converted_models/.gitkeep
+!A_quantized_models/.gitkeep
+!A_models/.gitkeep
